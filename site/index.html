@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+    <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="description" content="一份电影感的生日惊喜(模板作者 Shabbir Showne)。" />
+    <meta name="theme-color" content="#080304" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%E2%9D%A4%EF%B8%8F%3C/text%3E%3C/svg%3E">
+    <title>小柚子，生日快乐</title>
+    <meta property="og:title" content="Birthday Surprise Template" />
+    <meta property="og:description" content="一份电影感的生日惊喜。" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Safe fetch property wrapper to prevent read-only accessor collisions in sandbox -->
+    <script>
+      (function() {
+        try {
+          var originalFetch = window.fetch;
+          var customFetch = originalFetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return customFetch;
+            },
+            set: function(fn) {
+              customFetch = fn;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {
+          // ignore if already configurable
+        }
+      })();
+    </script>
+
+    <!-- Google Fonts for romantic and modern luxury typography -->
+    <link rel="stylesheet" href="./fonts/kai.css">
+</head>
+  <body class="bg-rose-50/50 text-slate-800 antialiased selection:bg-rose-200 selection:text-rose-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

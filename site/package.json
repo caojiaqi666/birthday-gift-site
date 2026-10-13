@@ -1,0 +1,45 @@
+{
+  "name": "birthday-surprise-template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "An interactive birthday surprise website template by Shabbir Showne.",
+  "author": "Shabbir Showne <info@shabbirshowne.com> (https://shabbirshowne.com)",
+  "homepage": "https://github.com/shabbirshowne/birthday-surprise-template#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shabbirshowne/birthday-surprise-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shabbirshowne/birthday-surprise-template/issues"
+  },
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --configLoader runner --port=3000 --host=0.0.0.0",
+    "build": "vite build --configLoader runner",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/canvas-confetti": "^1.9.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "canvas-confetti": "^1.9.4",
+    "gsap": "^3.13.0",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "three": "^0.179.1",
+    "vite": "^6.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/three": "^0.179.0",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.1.14",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3"
+  }
+}

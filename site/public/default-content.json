@@ -1,0 +1,250 @@
+{
+ "version": 1,
+ "meta": {
+  "pageTitle": "{收件人}，生日快乐"
+ },
+ "names": {
+  "recipient": "小柚子",
+  "nickname": "宝贝",
+  "sender": "阿舟"
+ },
+ "theme": {
+  "color": "#e6396e",
+  "saturation": 1,
+  "balloon": "gold"
+ },
+ "music": {
+  "src": "",
+  "volume": 0.6
+ },
+ "order": [
+  "sevenDays",
+  "welcome",
+  "counter",
+  "balloons",
+  "memories",
+  "photoReel",
+  "letter",
+  "cake",
+  "giftbox",
+  "starry",
+  "rose"
+ ],
+ "enabled": {
+  "opening": true,
+  "sevenDays": true,
+  "welcome": true,
+  "counter": true,
+  "balloons": true,
+  "memories": true,
+  "photoReel": true,
+  "letter": true,
+  "cake": true,
+  "giftbox": false,
+  "starry": false,
+  "rose": true
+ },
+ "opening": {
+  "line": "一个只属于我和{昵称}的小世界",
+  "to": "给 {收件人}",
+  "hint": "带着期待打开",
+  "note": "这份礼物怀着欢喜，用满满的爱做成",
+  "curtain": "./floral-curtain-c.png"
+ },
+ "sevenDays": {
+  "lines": [
+   "关于送什么礼物我想了很久，本想送点实用的，可你什么都不缺，思来想去，苦恼许久，**终于想到做这样一个礼物🎁**。",
+   "过去的**七天**里，这个网页的每一处，都是我一点点亲手做的。",
+   "每一种颜色、每一句话、每一个瞬间，**都只为你而做。**",
+   "它不贵重，却装满了我的心意。",
+   "告诉我，{昵称}..."
+  ],
+  "question": "知道**自己被这样深深爱着**，有没有多一些开心？",
+  "button": "继续看礼物"
+ },
+ "welcome": {
+  "kicker": "写给 {收件人} 的一段旅程",
+  "title1": "再远的距离.",
+  "title2": "还是你。",
+  "copy": "从{出发城市}到{到达城市}，我的心从来没有离你远过。",
+  "cityFrom": "北京",
+  "cityTo": "成都",
+  "button": "开始我们的故事",
+  "photo": "./photos/p82.jpg",
+  "background": "./romantic-heart-background-v2-c.png"
+ },
+ "counter": {
+  "kicker": "我们的第一天",
+  "start": "2020-05-20T20:00",
+  "until": "2026-12-24T00:00",
+  "untilMode": "date",
+  "before": "2020年5月20日晚上8点，我们第一次说上话",
+  "middle": "到现在已经",
+  "unit": "天",
+  "tail": "从那一刻起，对你的欢喜就开始了累计。",
+  "showTicker": true,
+  "button": "继续"
+ },
+ "balloons": {
+  "kicker": "距离很远又仿佛很近",
+  "title": "戳破我的",
+  "titleEm": "小心思",
+  "canopyHint": "每个气球对应一句心里话",
+  "notesTitle": "",
+  "intro": "五句我平时想着却不常说的话。",
+  "hint": "还有 {剩余} 句心里话在等你",
+  "next": "继续我们的旅程",
+  "notes": [
+   "你一笑，再难熬的日子都会变得柔软又好看。",
+   "再远的距离，也没让我的心离你远过一步。",
+   "每一通电话、每一次沉默、每一个明天，我都还是选你。",
+   "你是我平凡日子里的安心、笑声和小小的魔法。",
+   "如果喜欢能缩短距离，我早就站在你身边了。"
+  ],
+  "background": "./balloon-heart-clouds-red-v2-c.png",
+  "balloonImage": "./realistic-red-balloon-c.png"
+ },
+ "memories": {
+  "kicker": "",
+  "title": "回忆",
+  "titleEm": "我一直珍藏",
+  "sub": "",
+  "avatar": "./photos/p65.jpg",
+  "name": "{寄件人}",
+  "posts": [
+   {
+    "date": "2020年5月20日",
+    "text": "我们第一次说上话的那天。",
+    "photos": [
+     "./photos/p82.jpg"
+    ]
+   },
+   {
+    "date": "2021年4月",
+    "text": "第一次一起出去玩。",
+    "photos": [
+     "./photos/p56.jpg",
+     "./photos/p999.jpg"
+    ]
+   },
+   {
+    "date": "2023年7月",
+    "text": "那年夏天。",
+    "photos": [
+     "./photos/p691.jpg",
+     "./photos/p65.jpg",
+     "./photos/p777.jpg",
+     "./photos/p828.jpg"
+    ]
+   },
+   {
+    "date": "去年的今天",
+    "text": "又一个生日。",
+    "photos": [
+     "./photos/p976.jpg",
+     "./photos/p705.jpg",
+     "./photos/p866.jpg",
+     "./photos/p798.jpg",
+     "./photos/p652.jpg",
+     "./photos/p25.jpg"
+    ]
+   }
+  ],
+  "button": "继续看我们的时刻"
+ },
+ "photoReel": {
+  "line1": "每一个样子的你",
+  "line2": "都是我最喜欢的",
+  "line2Em": "回忆",
+  "sub": "{收件人}，每一个季节、每一束光里的你。",
+  "button": "继续这段旅程",
+  "photos": [
+   "./photos/p82.jpg",
+   "./photos/p56.jpg",
+   "./photos/p999.jpg",
+   "./photos/p691.jpg",
+   "./photos/p65.jpg",
+   "./photos/p777.jpg",
+   "./photos/p828.jpg",
+   "./photos/p976.jpg",
+   "./photos/p705.jpg",
+   "./photos/p866.jpg",
+   "./photos/p798.jpg",
+   "./photos/p652.jpg",
+   "./photos/p25.jpg",
+   "./photos/p239.jpg"
+  ],
+  "background": "./memory-reel-red-hearts.jpg"
+ },
+ "letter": {
+  "hint": "点爱心打开",
+  "button": "许个生日愿望",
+  "lines": [
+   "亲爱的{收件人}：",
+   "今天是你的生日。希望这一天带给你的温暖和快乐，像你带给我的一样多。",
+   "我珍惜每一个让你笑起来的瞬间。你开心的时候，我身边的一切都会跟着亮起来。",
+   "谢谢你陪我攒下的每一段回忆，也谢谢还在前面等着我们的每一章。",
+   "永远爱你的我"
+  ]
+ },
+ "cake": {
+  "kicker": "",
+  "title": "许个愿吧，{收件人}",
+  "candleHint": "闭上眼睛，想着最开心的事，然后吹灭蜡烛。",
+  "wishDone": "愿这一岁，你心里期待的都会到来。",
+  "blow": "吹灭蜡烛",
+  "blowing": "正在许愿……",
+  "wishPrompt": "你心里悄悄在盼着什么？",
+  "wishPlaceholder": "写下你心里的愿望……",
+  "save": "封存愿望",
+  "saving": "封存中……",
+  "saved": "你的愿望已经好好收起来了。",
+  "savedNote": "只保存在这台设备上。",
+  "next": "去看最后的玫瑰",
+  "cakeImage": "./birthday-cake-transparent-c.png"
+ },
+ "giftbox": {
+  "title": "有个小秘密在等你。",
+  "sub": "打开盒子，看看接下来是什么。",
+  "tap": "点一下看看"
+ },
+ "starry": {
+  "kicker": "你知道吗？",
+  "line1": "从 2020 年 5 月 20 日到今天，",
+  "line2": "我们已经一起走过了 {天数} 天。",
+  "question": "所以，{昵称}，往后的每一年，你还愿意和我一起走下去吗？",
+  "yes": "愿意",
+  "no": "不愿意",
+  "accepted": "我就知道你会说愿意。",
+  "button": "进入玫瑰终章",
+  "footer": "永远爱你的我"
+ },
+ "rose": {
+  "tap": "轻触玫瑰",
+  "title": "今天，每一朵玫瑰都为你盛开",
+  "happy": "生日快乐",
+  "small": "我爱的{收件人}",
+  "prints": [
+   {
+    "photo": "./photos/p82.jpg",
+    "caption": "你的温柔"
+   },
+   {
+    "photo": "./photos/p999.jpg",
+    "caption": "美好的回忆"
+   },
+   {
+    "photo": "./photos/p56.jpg",
+    "caption": "你的小魔法"
+   }
+  ],
+  "next": "看我最后想说的话",
+  "revealKicker": "给让所有距离都消失的那个人",
+  "revealLine": "我爱你，",
+  "revealName": "{收件人}.",
+  "revealSub": "再说一次，生日快乐",
+  "again": "再看一遍我们的故事",
+  "roseImage": "./red-rose-top-c.png",
+  "showPhotos": false
+ }
+}
